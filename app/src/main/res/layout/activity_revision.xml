@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#cceefc"
+    tools:context=".revision"
+    android:onClick="flipCard">
+
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:text="Session No"
+    android:background="#0599fc"
+    android:gravity="center"
+    android:textColor="#FFFFFF"
+    android:textSize="30dp"
+    android:textStyle="bold"
+   />
+
+
+
+<!--    <include layout="@layout/layout_card_back" />-->
+
+
+
+
+<FrameLayout
+    android:id="@+id/card_front"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="250dp"
+        app:cardBackgroundColor="#0546ad"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/cardtext2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" meaning"
+            android:textColor="#FFFFFF"/>
+
+    </androidx.cardview.widget.CardView>
+<!--    <include layout="@layout/layout_card_front" />-->
+
+</FrameLayout>
+
+<FrameLayout
+android:id="@+id/card_back"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginTop="250dp"
+    app:cardBackgroundColor="#0546ad"
+
+    tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/cardtext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="word"
+        android:textColor="#FFFFFF"/>
+
+</androidx.cardview.widget.CardView>
+</FrameLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="30dp">-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="next"-->
+<!--        android:background="0546ad"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textStyle="italic"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="500dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        />-->
+<!--    </LinearLayout>-->
+
+</FrameLayout>
