@@ -9,15 +9,14 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<!--        <activity android:name=".Main2Activity"/>-->
+        <activity android:name=".quiz2"></activity>
+        <activity android:name=".quizmodule" /> <!-- <activity android:name=".Main2Activity"/> -->
         <activity android:name=".book_pdf" />
         <activity android:name=".quiz" />
         <activity android:name=".revision" />
         <activity android:name=".sessioncard" />
         <activity android:name=".Session" />
-        <activity
-            android:name=".MainActivity"
-            >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
