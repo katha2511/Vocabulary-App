@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065732605037",
+    "firebase_url": "https://wordapp-5f9fe.firebaseio.com",
+    "project_id": "wordapp-5f9fe",
+    "storage_bucket": "wordapp-5f9fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065732605037:android:a7d0a53a7aa17ddcc1eb64",
+        "android_client_info": {
+          "package_name": "com.example.wordapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065732605037-mvg4q5o93bk3s18hm48js4heffqv19p5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wordapp",
+            "certificate_hash": "a5710f3facf507b03c3c458291b5bec268197f5a"
+          }
+        },
+        {
+          "client_id": "1065732605037-lrqhsvr35l7mv0gnsklf7djrjmk5eiqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe7wBPNdN39sbNQwVjmf63UPASbEgFg9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065732605037-lrqhsvr35l7mv0gnsklf7djrjmk5eiqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

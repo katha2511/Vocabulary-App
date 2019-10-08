@@ -1,13 +1,11 @@
 package com.example.wordapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Binder;
-import android.os.Bundle;
-import android.widget.Button;
-import android.widget.TextView;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -39,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent j=new Intent(MainActivity.this,quiz.class);
+                Intent j=new Intent(MainActivity.this,quiz2.class);
                 startActivity(j);
             }
         });

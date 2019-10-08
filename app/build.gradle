@@ -1,5 +1,6 @@
 //noinspection GradleCompatible
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -11,6 +12,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -35,6 +37,7 @@ dependencies {
     implementation 'info.hoang8f:fbutton:1.0.5'
     implementation 'com.wajahatkarim3.EasyFlipView:EasyFlipView:2.1.2'
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
 
 }
 dependencies {
@@ -54,6 +57,10 @@ dependencies {
 
     //card view
     implementation 'com.android.support:cardview-v7:28.0.0'
+
+    //Firestore
+    implementation 'com.google.firebase:firebase-firestore:21.0.0'
+
 }
 
 dependencies {
@@ -64,4 +71,21 @@ dependencies {
 dependencies {
     implementation 'androidx.appcompat:appcompat:+'
     implementation 'androidx.constraintlayout:constraintlayout:+'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:+'
+    implementation 'androidx.constraintlayout:constraintlayout:+'
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:+'
+    implementation 'androidx.constraintlayout:constraintlayout:+'
+}
+dependencies {
+    implementation 'com.android.support:multidex:1.0.3'
 }

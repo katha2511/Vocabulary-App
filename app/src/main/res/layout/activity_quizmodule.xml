@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quizmodule"
+    android:background="#cceefc">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:text="QUIZ"
+        android:background="#0599fc"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:layout_marginTop="265dp"
+        android:textColor="#0599fc"
+        android:layout_gravity="center"
+        android:text="Take Quiz" />
+</LinearLayout>

@@ -8,16 +8,15 @@
     tools:context=".MainActivity">
 
 
-
     <Button
         android:id="@+id/btn1"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
         android:background="@drawable/button_style"
         android:gravity="center"
         android:text="Sessions"
         android:textColor="#0599fc"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,13 +27,13 @@
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
         android:background="@drawable/button_style"
         android:gravity="center"
         android:text="Revision"
         android:textColor="#0599fc"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,12 +44,12 @@
 
     <Button
         android:id="@+id/btn3"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
         android:gravity="center"
         android:text="Quiz"
         android:textColor="#0599fc"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textStyle="italic"
         android:background="@drawable/button_style"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,14 +61,14 @@
 
     <Button
         android:id="@+id/btn4"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
         android:layout_marginBottom="108dp"
         android:background="@drawable/button_style"
         android:gravity="center"
         android:text="Book PDF"
         android:textColor="#0599fc"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
